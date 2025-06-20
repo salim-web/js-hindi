@@ -16,7 +16,8 @@ let valueInNumberTwo = Number(scoreTwo)
 
 /* "33" => 33
 "33abc" => NaN (type of NaN is number)
-true/false => 1/0  */
+true/false => 1/0  
+Type of null is object */
 
 let isLoggenIn = 1
 let booleanIsLoggenIn =  Boolean(isLoggenIn)
