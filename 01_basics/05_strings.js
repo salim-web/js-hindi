@@ -30,10 +30,29 @@ anotherString = gameName.slice(-7,1)
 // console.log(anotherNewString.trimLeft());
 
 url = "https:/google.com/salim%10ahmed"
-console.log(url.replace("%10","-"));
-console.log(url.includes("salim"));
+// console.log(url.replace("%10","-"));
+// console.log(url.includes("salim"));
 
-splitString = url.split("/")
-console.log(splitString);
+splitString = url.split("/") //splits at places where / is present into an array
+// console.log(splitString.length);
 
+exampleString = "A brown fox jumps over the blue fence"
+// console.log(exampleString.at(-1));
+index = 0
+// console.log(`The character at index ${index} is ${exampleString.charAt(index)}`);
+charCode = "💖"
+// console.log(charCode.codePointAt(index));
+// console.log(exampleString.concat("=>"," salim"));
+
+// console.log(exampleString.endsWith("fence")); true
+// console.log(exampleString.endsWith("fenc")); false
+// console.log(exampleString.endsWith("fenc",36)); false
+
+
+// console.log(`The given sentence ${exampleString.includes("brown") ? "does" : "doesn't"} include brown`,);
+console.log(exampleString.includes("fence")? "does" :"doesn't");
+
+
+
+ 
 
