@@ -18,6 +18,6 @@ let city = null // null
 
 // object
 
-// console.log(typeof null); // output => object
-// console.log(typeof undefined); // output => undefined
+console.log(typeof null); // output => object
+console.log(typeof undefined); // output => undefined
 
