@@ -52,6 +52,7 @@ charCode = "💖"
 // console.log(`The given sentence ${exampleString.includes("brown") ? "does" : "doesn't"} include brown`,);
 // console.log(exampleString.includes("fence") ? "does" :"doesn't");
 
+// console.log(exampleString.length);
 
 
  
