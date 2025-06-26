@@ -1,15 +1,18 @@
 const marvelHeroes = ["Thor", "Ironman", "Loki"]
 const dcHeroes = ["Superman", "Batman", "Flash"]
 
-marvelHeros.push(dcHeros) // inserts the whole array inside the first array
-console.log(marvelHeros);
-console.log(marvelHeros[3][1]); // accessing an array elements inside another array
+marvelHeros.push(dcHeroes) // inserts the whole array inside the first array
+console.log(marvelHeroes);
+console.log(marvelHeroes[3][1]); // accessing an array elements inside another array
 
  const allHeroes = marvelHeroes.concat(dcHeroes) // adds both the heroes
 console.log(allHeroes);
 
-const allNewHeroes = [...marvelHeroes, ...dcHeroes]
-console.log(allNewHeroes);
+const allNewHeroes1 = [marvelHeroes, dcHeroes] // array inside array
+const allNewHeroes2 = [...marvelHeroes, ...dcHeroes] // spread operator
+console.log(allNewHeroes1);
+console.log(allNewHeroes2);
+
 
 const anotherArray = [1, 2, 3, [4 , 5, 6,], 7, [6, 7, [1, 2, 3]]]
 const realAnotherArray = anotherArray.flat(Infinity) //combines all the sub-arrays and make it one array
