@@ -3,7 +3,7 @@ tinderUser.id = "123abc"
 tinderUser.name = "Salmu"
 tinderUser.isLoggedIn = false
 
-// console.log(tinderUser);
+console.log(tinderUser);
 
 const regularUser = {
     email : 'someone@gmail.com',
@@ -15,8 +15,8 @@ const regularUser = {
     }
 }
 
-// console.log(regularUser.fullName.userFullName.firstName);
-// console.log(regularUser.fullName?.userFullName.firstName); // ? checks whether the key is prsnt or not
+console.log(regularUser.fullName.userFullName.firstName);
+console.log(regularUser.fullName?.userFullName.firstName); // ? checks whether the key is prsnt or not
 
 const obj1 = {1 : 'a', 2 : 'b'}
 const obj2 = {3 : 'a', 4 : 'b'}
@@ -26,7 +26,7 @@ const finalObj1 = {...obj1, ...obj2, ...obj3}
 // console.log(finalObj1); // more  preferrable way
 
 const finalObj2 = Object.assign({}, obj1, obj2, obj3) // {} is the target and ibj are the sources
-// console.log(finalObj2);
+console.log(finalObj2);
 
 users = [
     {
@@ -43,15 +43,15 @@ users = [
     }
 ]
 
-// console.log(users[1].email); // acessing in array of objs
+console.log(users[1].email); // acessing in array of objs
 
-// console.log(Object.keys(tinderUser)) // returns the keys of obj in array datatype
-// console.log(Object.values(tinderUser)); // retuurns the values of obj in array datatype
-// console.log(Object.entries(tinderUser)); // returns key value pair in array inside of an array
+console.log(Object.keys(tinderUser)) // returns the keys of obj in array datatype
+console.log(Object.values(tinderUser)); // retuurns the values of obj in array datatype
+console.log(Object.entries(tinderUser)); // returns key value pair in array inside of an array
 
-// console.log(tinderUser.hasOwnProperty('isLoggedIn')); // true=> checks if the prop is present or 
+console.log(tinderUser.hasOwnProperty('isLoggedIn')); // true=> checks if the prop is present or 
 
-// console.log(tinderUser.constructor); // [Function: Object]
+console.log(tinderUser.constructor); // [Function: Object]
 
 const course = {
     courseName : 'js in hindi',
@@ -59,10 +59,10 @@ const course = {
     courseInstructor : 'Hitesh'
 }
 
-// console.log(course.courseInstructor); // more work
+console.log(course.courseInstructor); // more work
 
 const {courseInstructor} = course
-// console.log(courseInstructor);
+console.log(courseInstructor);
 
 const {courseInstructor : instructor} = course
 console.log(instructor);
