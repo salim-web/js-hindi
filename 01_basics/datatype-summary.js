@@ -28,11 +28,43 @@ let myObj = {
     age: 22,
 }
 
+// let anotherHeros = myObj
+// anotherHeros.age = 20
+
+// console.log(myObj);  // produces a shallow copy
+// console.log(anotherHeros); 
+
+//Exceptions(destructured/spread operator)
+
+// let anotherHeros = {...myObj} // produces a deep copy, no reference wll be there/passed as a new
+// anotherHeros.age = 20
+
+// console.log(myObj);
+// console.log(anotherHeros);
+
+
+let myObj1 = {
+    name: "hitesh",
+    age: 22, 
+    ball :{
+            type : "leather"     // destructioring can also be done in json but it will create reference
+          } 
+}
+
+
+let anotherHeros = {...myObj1} 
+anotherHeros.ball.type = "tennis"
+
+console.log(myObj1);
+console.log(anotherHeros);
+// gives same output => reference
+
+
 const myFunction = function(){
     console.log("Hello world");
 }
 
-console.log(typeof heros);
+// console.log(typeof heros);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
 
@@ -48,8 +80,8 @@ let myYoutubeName = "saliiim"
 let anotherName = myYoutubeName
 anotherName = "salim"
 
-console.log(myYoutubeName);
-console.log(anotherName);
+// console.log(myYoutubeName);
+// console.log(anotherName);
 
 let userOne = {
     user : "user@google.com",
@@ -59,6 +91,6 @@ let userOne = {
 let userTwo = userOne
 userTwo.email = "salim@google.com"
 
-console.log(userOne);
-console.log(userTwo);
+// console.log(userOne);
+// console.log(userTwo);
 
