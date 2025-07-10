@@ -1,7 +1,7 @@
 let score = "33"
 let scoreTwo = "33abc"
 
-const {score} = req.body // user input so we don't know the datatype
+// const {score} = req.body // user input so we don't know the datatype
 
 console.log(typeof score)
 console.log(typeof(score));
