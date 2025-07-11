@@ -15,7 +15,7 @@ console.log(gameName.toUpperCase());
 console.log(gameName.charAt(3));
 console.log(gameName.indexOf("f"));
 
-const newString = gameName.substring(0,3)
+const newString = gameName.substring(0,3) // 3 is not included, 
 console.log(newString);
 
 anotherString = gameName.slice(-7,1)
