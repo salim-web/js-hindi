@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <style>
+      .bg-black {
+        background-color: black;
+        color: white;
+      }
+    </style>
+    <title>DOM learning</title>
+  </head>
+  <body class="bg-black">
+    <div>
+      <h1 id="title" class="heading">DOM learning on chai aur code <span style="display: none;">text content</span></h1>
+      <h1>Lorem, ipsum.</h1>
+      <h1>Lorem, ipsum dolor.</h1>
+      <h1>Lorem ipsum dolor sit.</h1>
+      <p>Lorem ipsum dolor sit amet.</p>
+      <input type="password" name="" id="">
+      <ul>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+      </ul>
+    </div>
+  </body>
+</html>
+<!-- 
+console.log(window.document)
+document.getElementById("firstHeading") 
+document.getElementById("firstHeading").innerHTML = "<h1>Salim Ahmed</h1>"
+document.getElementById("title").id
+'title'
+
+document.getElementById("title").class
+undefined
+
+document.getElementById("title").className
+'heading
+
+document.getElementById("title").getAttribute("id")
+'title'
+
+document.getElementById("title").getAttribute("class")
+'heading
+
+document.getElementById("title").setAttribute("class","test")
+undefined (overrrites the attribute)
+
+const title = document.getElementById("title")
+undefined
+
+title
+<h1 id=​"title" class=​"test">​DOM learning on chai aur code​</h1>​
+title.style.backgroundColor = "violet"
+'violet'
+
+title.style.padding = "12px"
+'12px'
+
+title.style.borderRadius = "13px"
+'13px'
+
+title.innerText(shows visible texts)
+'DOM learning on chai aur code'
+
+title.textContent(shows hidden content too)
+'DOM learning on chai aur code text content'
+
+title.innerHTML(shows HTML tags also)
+'DOM learning on chai aur code <span style="display: none;">text content</span>'
+
+document.querySelector('h1')
+<h1 id=​"title" class=​"heading">​…​</h1>​
+
+document.querySelectorAll('h1')
+NodeList(4) [h1#title.heading, h1, h1, h1]
+
+document.querySelector('#title') (# used to acess id)
+<h1 id=​"title" class=​"heading">​…​</h1>​
+
+document.querySelector('.heading') (. used to acess class)
+<h1 id=​"title" class=​"heading">​…​</h1>​
+
+document.querySelector('input[type="password"]')
+
+const myul = document.querySelector('ul')
+undefined
+
+myul.querySelector('li')
+<li>...</li>
+
+const turnGreen = myul.querySelector('li')
+undefined
+
+turnGreen.style.backgroundColor = 'green'
+'green'
+
+turnGreen.style.width = '25px'
+'25px
+
+turnGreen.innerText = 'five'
+'five'
+-->
