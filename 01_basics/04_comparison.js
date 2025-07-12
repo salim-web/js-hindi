@@ -20,6 +20,9 @@ console.log(x == y); // true
 console.log(x == z); // true
 console.log(y == x); //true 
 
+let a = 1 > 2 > 3
+console.log(a); // false
+
 
 // avoid comparisons of different datatypes 
 // coersion => when we use == it converts the datatypes, in this case it converts the string into number then number into boolean
