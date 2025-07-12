@@ -1,7 +1,8 @@
 const balance = new Number(400)
 
-console.log(balance.toString().length);
-console.log(balance.toFixed(2));
+console.log(balance.toString().length); // 3
+console.log(balance.length); // undefined
+console.log(balance.toFixed(2)); // returns the asked places after the decimal point without rounding off
 
 const otherNumber = 23.8902
 console.log( otherNumber.toPrecision(2)); // returns a string value after rounding off
@@ -31,15 +32,3 @@ const max = 6
 
 
 console.log(Math.floor(Math.random() * (max - min + 1)) + min);
-
-
-
-
-
-
-
-
-
-
-
-
